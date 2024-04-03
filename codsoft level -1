@@ -1,0 +1,101 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <img src="https://img.freepik.com/free-photo/cup-coffee-table-front-street-with-city-lights-background_188544-10293.jpg?w=1060" class="landing_page_symbol">
+            <a class="navbar-brand" href="#">
+            <h1 class="main-heading">CAFE</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" id="navItem1" href="#">
+                        Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-link" href="#" id="navItem2">Pages</a>
+                    <a class="nav-link" href="#" id="navItem3">Reviews</a>
+                    <a class="nav-link" href="#" id="navItem4">Coffee</a>
+                    <a class="nav-link" href="#" id="navItem4">Testinomals</a>
+                    <a class="nav-link" href="#" id="navItem4">Blogs</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="banner-section-bg-container d-flex justify-content-center flex-column">
+        <div class="div-border">
+            <p class="paragraph-1">Now you can feel the Energy</p>
+            <h1 class="heading1 mb-4">Start Your Day With black coffee</h1>
+            <button class="button1">View Menu</button>
+            <button class="button2">Order Now</button>
+        
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+  CSS
+  @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.banner-section-bg-container {
+    background-image: url("https://img.freepik.com/premium-photo/cup-coffee-beans-wooden-table_68495-156.jpg?w=996");
+    height: 100vh;
+    background-size: cover;
+}
+.landing_page_symbol{
+height: 100px;
+width: 100px;
+border-radius: 65px;
+padding: 10px;
+}
+.main-heading{
+    color: black;
+    padding: 0px;
+    margin-right: 0px;
+    font-family: Georgia;
+}
+.paragraph-1{
+    font-family: Georgia;
+    margin-right: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.heading1{
+    font-family: Georgia;
+    margin-right: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.button1{
+    border-radius: 13px;
+    padding: 7px;
+    background-color: #453d44;
+    color: white;
+    border-width: 0px;
+    font-family: Georgia;
+}
+.button2{
+   border-radius: 13px;
+    padding: 7px;
+    background-color: #453d44;
+    color: white;
+    border-width: 0px;
+    font-family: Georgia;
+}
